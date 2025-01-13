@@ -3,7 +3,7 @@ import { Dimensions, StyleSheet, Text, TouchableOpacity, View } from 'react-nati
 import Modal from 'react-native-modal';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 const { width } = Dimensions.get('window').width;
-const ModalAlert = ({ isVisible, onClose, onEdit, onDelete, onCancelRequest }) => {
+const BottomSheet = ({ isVisible, onClose, onEdit, onDelete, onCancelRequest }) => {
 
 
 
@@ -82,4 +82,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ModalAlert;
+export default BottomSheet;
